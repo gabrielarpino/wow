@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+wow/__init__.py
+wow/info.py
+wow.egg-info/PKG-INFO
+wow.egg-info/SOURCES.txt
+wow.egg-info/dependency_links.txt
+wow.egg-info/top_level.txt
+wow/example/__init__.py
+wow/example/hello.py
+wow/example/math.py
+wow/tests/__init__.py
+wow/tests/test_example.py
