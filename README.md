@@ -1,4 +1,21 @@
-# Python Package Template
+# WOW
+
+## Installation
+
+1. Clone the remote repository
+```bash
+git clone git@github.com:gabrielarpino/wow.git
+```
+2. Go to the package directory. *e.g.*
+```bash
+cd wow
+```
+3. Run the setup script
+```python
+python setup.py install
+```
+
+## Python Package Template
 
 ---
 > Author: <a href="http://www.cosmostat.org/people/sfarrens" target="_blank" style="text-decoration:none; color: #F08080">Samuel Farrens</a>  
