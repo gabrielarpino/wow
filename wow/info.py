@@ -23,5 +23,5 @@ __license__ = 'MIT'
 __about__ = ('{} \n\n Author: {} \n Email: {} \n Year: {} \n {} \n\n'
              ''.format(__name__, __author__, __email__, __year__,
                        __description__))
-__setup_requires__ = ['pytest-runner', ]
+__setup_requires__ = ['pytest-runner', 'multipledispatch', 'numpy']
 __tests_require__ = ['pytest', 'pytest-cov', 'pytest-pep8']
