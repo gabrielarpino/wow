@@ -11,10 +11,10 @@ version_info = (0, 0, 0)
 __version__ = '.'.join(str(c) for c in version_info)
 
 # Set the package details
-__author__ = 'configure_author'
-__email__ = 'configure_email'
-__year__ = 'configure_year'
-__url__ = 'configure_url'
+__author__ = 'Gabriel'
+__email__ = 'arpino.gabriel@gmail.com'
+__year__ = '2019'
+__url__ = 'https://github.com/gabrielarpino/wow'
 __description__ = 'configure_description'
 __requires__ = []  # Your package dependencies
 
