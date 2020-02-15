@@ -12,3 +12,5 @@ wow/example/hello.py
 wow/example/math.py
 wow/tests/__init__.py
 wow/tests/test_example.py
+wow/viz/__init__.py
+wow/viz/gp.py

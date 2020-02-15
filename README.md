@@ -15,6 +15,13 @@ cd wow
 python setup.py install
 ```
 
+### To do:
+* Put package on pip
+* Add general visualization capabilities
+* Add general animation capabilities.
+
+
+
 ## Python Package Template
 
 ---
