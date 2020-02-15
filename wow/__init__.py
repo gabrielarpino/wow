@@ -8,7 +8,6 @@ Provide some basic description of what your package module contains.
 
 __all__ = []  # List of submodules
 
-import stheno
-import numpy as np
 from . import *
+from .viz import *
 from .info import __version__, __about__

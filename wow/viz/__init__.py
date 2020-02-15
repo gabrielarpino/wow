@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-
-# Import all the req visualization stuff
-import multipledispatch
-import matplotlib as plt
-
-
-
 from . import *
+from .colour import *
+from .gp import *
+from .colour import PAL
