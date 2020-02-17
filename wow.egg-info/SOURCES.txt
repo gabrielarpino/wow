@@ -10,8 +10,10 @@ wow.egg-info/top_level.txt
 wow/example/__init__.py
 wow/example/hello.py
 wow/example/math.py
+wow/randfn/__init__.py
 wow/tests/__init__.py
 wow/tests/test_example.py
 wow/viz/__init__.py
 wow/viz/colour.py
+wow/viz/fn.py
 wow/viz/gp.py

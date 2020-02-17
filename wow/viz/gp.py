@@ -5,6 +5,8 @@ import numpy as np
 import pandas as pd
 from .colour import PAL
 
+# Remove stheno from this cus too many dependencies and not maintained, it depends on lab and wbml which is not easy to install.
+
 a = (list, np.ndarray)
 
 @dispatch(a, a, stheno.graph.GP)

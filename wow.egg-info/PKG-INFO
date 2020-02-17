@@ -1,4 +1,4 @@
-Metadata-Version: 2.1
+Metadata-Version: 1.0
 Name: wow
 Version: 0.0.0
 Summary: builtins 
@@ -272,4 +272,3 @@ Description: # WOW
         5. Now you can fork this repository and continue to develop.
         
 Platform: UNKNOWN
-Description-Content-Type: text/markdown
