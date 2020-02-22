@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import random
 
 # TODO: Random colour palette
+# TODO: Change seaborn default plot stuff, no axis etc. 
 
 # sns.set_palette("husl")
 # "RdBu_r"
@@ -32,3 +33,7 @@ PAL_list = [
 # sns.palplot(sns.diverging_palette(255, 133, l=60, n=7, center="dark"))
 
 PAL = random.choice(PAL_list)
+
+def gen_PAL():
+    """ Returns a random colour palette to use"""
+    return random.choice(PAL_list)
