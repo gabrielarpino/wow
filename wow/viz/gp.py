@@ -13,9 +13,10 @@ a = (list, np.ndarray)
 def viz(x, y, mean, lower, upper):
     pal = gen_PAL()
     plt.figure(figsize=(12, 6))
-    plt.scatter(x[:, 0], y, label='Observations', c=pal[0])
+    plt.scatter(x[:, 0], y, label='Observations', c=pal[0], alpha=0.8)
     plt.plot(x[:, 0], mean, label='Prediction', c=pal[1])
-    plt.fill_between(x[:, 0], lower, upper, color=pal[2], alpha=0.2)
+    plt.fill_between(x[:, 0], lower, upper, color=pal[2], alpha=0.3)
+    plt.legend()
     plt.show()
     return
 
